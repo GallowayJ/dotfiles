@@ -1,0 +1,7 @@
+axes.titlesize : 36
+axes.labelsize : 26
+xtick.labelsize : 26
+ytick.labelsize : 26
+text.usetex : true
+font.family : sans-serif
+figure.figsize : 16, 10
