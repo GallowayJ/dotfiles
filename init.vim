@@ -9,24 +9,25 @@ set ignorecase " make search case insensitve
 set smartcase " unless a capital is used in query
 set ruler
 set number " show line numbers
+"set termguicolors " enable true colour support
 
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins' }
+Plug 'roxma/nvim-completion-manager'
+Plug 'roxma/python-support.nvim'
+Plug 'scrooloose/nerdtree'
 Plug 'lervag/vimtex'
 Plug 'vim-airline/vim-airline'
-Plug 'zchee/deoplete-jedi'
 Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
 
-let g:deoplete#enable_at_startup = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='minimalist'
 
-" deoplete tab completion
-inoremap <expr><tab> pumvisible()? "\<c-n>" : "\<tab>"
-
+" smart tab for auto complete
+inoremap <expr> <silent> <Tab> pumvisible()?"\<C-n>":"\<TAB>"
+inoremap <expr> <silent> <S-TAB> pumvisible()?"\<C-p>":"\<S-TAB>" 
 " For relative numbering
 function! NumberToggle()
   if(&relativenumber == 1)
