@@ -18,6 +18,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'lervag/vimtex'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
@@ -27,7 +28,7 @@ let g:airline_theme='minimalist'
 
 " smart tab for auto complete
 inoremap <expr> <silent> <Tab> pumvisible()?"\<C-n>":"\<TAB>"
-inoremap <expr> <silent> <S-TAB> pumvisible()?"\<C-p>":"\<S-TAB>" 
+inoremap <expr> <silent> <S-TAB> pumvisible()?"\<C-p>":"\<S-TAB>"
 " For relative numbering
 function! NumberToggle()
   if(&relativenumber == 1)
