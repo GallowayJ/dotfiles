@@ -1,18 +1,22 @@
-axes.titlesize : 36
-axes.labelsize : 30
-xtick.labelsize : 30
-ytick.labelsize : 30
+axes.titlesize : 40
+axes.labelsize : 40
+axes.linewidth : 1.
+axes.labelsize : large
+xtick.labelsize : 40
+ytick.labelsize : 40
 text.usetex : true
-font.family : serif
+font.family : sans-serif
+font.sans-serif : sans-serif
+text.usetex : True
 font.serif : computer modern
-axes.linewidth : 2.2
-ytick.major.width : 2.2
-figure.figsize : 16, 10
-font.size : 26
+axes.linewidth : 2.4
+ytick.major.width : 2.4
+figure.figsize : 30, 20
+font.size : 35
 lines.color : k
 scatter.marker: x
 axes.prop_cycle : cycler('color',['k']) # Only black in colourcycle
-lines.markersize : 20
+lines.markersize : 25
 axes.spines.top : false
 axes.spines.right : false
 legend.frameon : false
