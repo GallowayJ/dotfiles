@@ -1,0 +1,20 @@
+# Domains added below will be ignored, For example:
+# your-domain-name.com
+google-analytics.com
+desktop.spotify.com
+audio-sp-sto.spotify.com
+weblb-wg.gslb.spotify.com
+gew1.ap.spot0.0.0.0 adeventtracker.spotify.com
+ads-fa.spotify.com
+ads.spotify.com
+analytics.spotify.com
+audio-sp-sto.spotify.com
+audio2.spotify.com
+crashdump.spotify.com
+gew1.ap.spotify.com
+log.spotify.com
+lon6-accesspoint-a33.lon6.spotify.com
+spclient.wg.spotify.com
+upgrade.spotify.com
+weblb-wg.gslb.spotify.com
+#spclient.wg.spotify.com #[affects mobile app]
