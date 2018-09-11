@@ -1,6 +1,7 @@
 xtick.labelsize : 40
 ytick.labelsize : 40
 text.usetex : true
+text.latex.preamble : \usepackage{cmbright} # For sans-serif everywhere
 font.family : sans-serif 
 font.sans-serif : DejaVu Sans 
 ytick.major.width : 2.4
